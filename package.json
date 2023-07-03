@@ -1,0 +1,31 @@
+{
+  "name": "qianfeng-frontend",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@element-plus/icons-vue": "^2.1.0",
+    "@iconify-json/ep": "^1.1.11",
+    "axios": "^1.4.0",
+    "element-plus": "^2.3.7",
+    "vue": "^3.2.47",
+    "vue-router": "^4.1.6"
+  },
+  "devDependencies": {
+    "@types/less": "^3.0.3",
+    "@vitejs/plugin-vue": "^4.1.0",
+    "less": "^4.1.3",
+    "less-loader": "^6.2.0",
+    "typescript": "^4.9.3",
+    "unplugin-auto-import": "^0.16.4",
+    "unplugin-icons": "^0.16.3",
+    "unplugin-vue-components": "^0.25.1",
+    "vite": "^4.1.0",
+    "vue-tsc": "^1.0.24"
+  }
+}
